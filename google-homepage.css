@@ -3,8 +3,13 @@ body {
 	font-family: arial, sans-serif;
 	color: #000;
 	opacity: 0.75;
+	position: relative;
 }
 
-.navigation {
+li {
 	display: inline-block;
+}
+
+.topright {
+	right: 0;
 }
