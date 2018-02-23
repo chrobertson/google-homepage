@@ -1,15 +1,35 @@
-body {
-	background-color: rgb(255, 255, 255);
-	font-family: arial, sans-serif;
-	color: #000;
-	opacity: 0.75;
-	position: relative;
-}
-
 li {
 	display: inline-block;
+	font-family: Arial, sans-serif;
+	font-size: 13px;
 }
 
-.topright {
-	right: 0;
+
+.about {
+	margin: 24px 0px 0px 25px;
+}
+
+.store {
+	margin: 24px 0px 0px 14.5px;
+}
+
+.gmail {
+	margin: 24px 0px 0px 968.5px;
+}
+
+.images {
+	margin: 24px 0px 0px 11px;
+}
+
+.apps {
+	margin: 0px 0px 0px 18.5px;
+}
+
+.signin {
+	background-color: rgb(66,133,244);
+	color: rgb(255, 255, 255);
+	padding: 7.5px 13px 9.5px 13px;
+	border-radius: 3px;
+	margin: 16px 0px 0px 16px;
+	font-weight: 700;
 }
