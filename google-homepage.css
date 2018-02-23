@@ -1,7 +1,5 @@
 li {
 	display: inline-block;
-	font-family: Arial, sans-serif;
-	font-size: 13px;
 }
 
 
@@ -14,15 +12,18 @@ li {
 }
 
 .gmail {
-	margin: 24px 0px 0px 968.5px;
+	margin: 0px 11px 0px 0px;
 }
 
 .images {
-	margin: 24px 0px 0px 11px;
+	margin: 0px 18px 0px 0px;
 }
 
 .apps {
-	margin: 0px 0px 0px 18.5px;
+	margin: 0px 18px 0px 0px;
+	top: 4px;
+	position: relative;
+	opacity: 0.55;
 }
 
 .signin {
@@ -30,6 +31,35 @@ li {
 	color: rgb(255, 255, 255);
 	padding: 7.5px 13px 9.5px 13px;
 	border-radius: 3px;
-	margin: 16px 0px 0px 16px;
+	margin: 16px 30px 0px 0px;
 	font-weight: 700;
+	font-family: arial, sans-serif;
+	font-size: 13px
+}
+
+.topleft {
+	float: left;
+}
+
+.topright {
+	float: right;
+}
+
+.headertext {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+	color: rgb(0, 0, 0);
+	opacity: 0.75;
+}
+
+.logo1 {
+	position: absolute;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+
+.logo2 {
+	margin-top: 165px;
+	width: 384px;
 }
