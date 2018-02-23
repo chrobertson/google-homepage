@@ -77,10 +77,21 @@ header {
 	position: relative;
 	display: inline-block;
 	width: 482px;
-	height: 34px;
+	height: 40px;
 	margin-top: 41px;
 }
 
 .button {
 	position: relative;
-}
+	background-color: rgb(242, 242, 242);
+	color: rgb(117, 117, 117);
+	font-size: 13px;
+	font-family: arial, sans-serif;
+	font-weight:700;
+	height: 36px;
+	margin: 30px 2px;
+	padding: 2px 15px 0px 15px;
+	border-sizing: border-box;
+	border-style: solid;
+	border-radius: 2px;
+	border-color: rgb(242, 242, 242)
