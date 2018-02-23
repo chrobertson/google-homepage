@@ -2,6 +2,9 @@ li {
 	display: inline-block;
 }
 
+header {
+
+}
 
 .about {
 	margin: 24px 0px 0px 25px;
@@ -52,7 +55,7 @@ li {
 	opacity: 0.75;
 }
 
-.logo1 {
+.center {
 	position: absolute;
 	display: block;
 	width: 100%;
@@ -60,6 +63,24 @@ li {
 }
 
 .logo2 {
-	margin-top: 165px;
+	position: relative;
+	margin-top: 145px;
 	width: 384px;
+}
+
+.search {
+	width: 100%;
+	position: relative;
+}
+
+.bar {
+	position: relative;
+	display: inline-block;
+	width: 482px;
+	height: 34px;
+	margin-top: 41px;
+}
+
+.button {
+	position: relative;
 }
