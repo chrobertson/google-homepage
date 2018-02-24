@@ -1,5 +1,7 @@
 li {
 	display: inline-block;
+	position: relative;
+	z-index: 10;
 }
 
 header {
@@ -73,12 +75,29 @@ header {
 	position: relative;
 }
 
+.searchbar {
+	width: 482px;
+	position: relative;
+	margin: 0 auto;
+}
+
 .bar {
 	position: relative;
-	display: inline-block;
+	display: block;
 	width: 482px;
 	height: 40px;
-	margin-top: 41px;
+	margin-top: 40px;
+	border-radius: 2px;
+	border-style: solid;
+	border-color: rgb(220, 220, 220);
+	border-width: 1px;
+}
+
+.voice {
+	width: 14px;
+	position: absolute;
+	top: 12px;
+	right: 17px;
 }
 
 .button {
@@ -89,7 +108,7 @@ header {
 	font-family: arial, sans-serif;
 	font-weight:700;
 	height: 36px;
-	margin: 30px 2px;
+	margin: 33px 2px;
 	padding: 2px 15px 0px 15px;
 	border-sizing: border-box;
 	border-style: solid;
